@@ -1,0 +1,26 @@
+* {
+  margin: 2px;
+  font-family: "Times New Roman", Times, serif;
+}
+#status {
+  color: cadetblue;
+  text-align: center;
+}
+#loginheading {
+  font-family: "Times New Roman", Times, serif;
+  font-weight: 600;
+  text-align: center;
+}
+#formcontainer {
+  width: 60%;
+  margin: 0% auto;
+  border: 20px groove grey;
+  box-shadow: 3px 4px 4px 4px;
+}
+button {
+  margin: 5px;
+  box-shadow: 4px 4px 4px;
+}
+.Reset {
+  display: none;
+}
