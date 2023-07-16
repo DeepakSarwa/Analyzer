@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Analyzer</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="main.css" />
+  </head>
+  <body>
+    <h1 id="loginheading">Login</h1>
+    <h5 id="status"></h5>
+    <div id="formcontainer">
+      <form>
+        <div class="mb-3">
+          <label for="usermail" class="form-label"><b>Email address</b></label>
+          <input
+            type="email"
+            class="form-control"
+            id="usermail"
+            aria-describedby="emailHelp"
+          />
+          <div id="emailHelp" class="form-text">
+            We'll never share your email with anyone else.
+          </div>
+        </div>
+        <div class="mb-3">
+          <label for="userpass" class="form-label"><b>Password</b></label>
+          <input type="password" class="form-control" id="userpass" />
+        </div>
+      </form>
+      <button class="btn btn-info" id="Login"><b>Login</b></button>
+      <button type="reset" class="btn btn-light" id="Reset">
+        <b>Reset</b>
+      </button>
+    </div>
+    <script src="./main.js"></script>
+  </body>
+</html>
